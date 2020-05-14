@@ -79,9 +79,9 @@ CorrectPassword = "BZHIREDHATSTAFF"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93maw username'y sarawa bnusa\x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;93mam username'a bnsua XALO_SOFTWARE \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-        password = raw_input("\033[1;96m[☆] \x1b[1;93maw passworday sarawa bnusa \x1b[1;96m>>>> ")
+        password = raw_input("\033[1;96m[☆] \x1b[1;93mam password'a bnusa BZHIREDHATSTAFF \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print
             "Logged in successfully as " + username
@@ -103,7 +103,6 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print
-        logo
         print("055/[1.50m")
         os.system('figlet xalo')
         print
