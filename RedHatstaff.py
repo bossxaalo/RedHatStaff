@@ -267,7 +267,6 @@ def pilih_super():
     elif peak == "1":
         os.system('clear')
         print
-            print
         42 * "\033[1;96m="
         jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
         r = requests.get("https://graph.facebook.com/me/friends?access_token=" + toket)
