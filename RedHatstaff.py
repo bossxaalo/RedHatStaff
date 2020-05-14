@@ -267,6 +267,7 @@ def pilih_super():
     elif peak == "1":
         os.system('clear')
         print
+
         42 * "\033[1;96m="
         jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
         r = requests.get("https://graph.facebook.com/me/friends?access_token=" + toket)
@@ -276,6 +277,7 @@ def pilih_super():
     elif peak == "2":
         os.system('clear')
         print
+
         42 * "\033[1;96m="
         idt = raw_input("\033[1;96m[+] \033[1;93mId'y accounti aw kasa bnusa ka atawe \033[1;91m: \033[1;97m")
         try:
