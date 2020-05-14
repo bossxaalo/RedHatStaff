@@ -190,8 +190,6 @@ def menu():
         keluar()
     os.system("clear")
     print
-    logo
-    print
     42 * "\033[1;96m="
     print
     "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m" + nama + "\033[1;97m               "
@@ -245,7 +243,6 @@ def super():
         login()
     os.system('clear')
     print
-    logo
     print
     42 * "\033[1;96m="
     print
@@ -270,8 +267,7 @@ def pilih_super():
     elif peak == "1":
         os.system('clear')
         print
-        logo
-        print
+            print
         42 * "\033[1;96m="
         jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
         r = requests.get("https://graph.facebook.com/me/friends?access_token=" + toket)
@@ -281,8 +277,7 @@ def pilih_super():
     elif peak == "2":
         os.system('clear')
         print
-        logo
-        print
+            print
         42 * "\033[1;96m="
         idt = raw_input("\033[1;96m[+] \033[1;93mId'y accounti aw kasa bnusa ka atawe \033[1;91m: \033[1;97m")
         try:
@@ -303,8 +298,7 @@ def pilih_super():
     elif peak == "3":
         os.system('clear')
         print
-        logo
-        print
+            print
         42 * "\033[1;96m="
         idg = raw_input('\033[1;96m[+] \033[1;93mMasukan ID group \033[1;91m:\033[1;97m ')
         try:
@@ -326,8 +320,7 @@ def pilih_super():
     elif peak == "4":
         os.system('clear')
         print
-        logo
-        print
+            print
         42 * "\033[1;96m="
         try:
             idlist = raw_input('\x1b[1;96m[+] \x1b[1;93mMasukan nama file  \x1b[1;91m: \x1b[1;97m')
@@ -538,7 +531,6 @@ def grupsaya():
         pass
     os.system('clear')
     print
-    logo
     print
     42 * "\033[1;96m="
     try:
@@ -593,7 +585,6 @@ def yahoo():
         login()
     os.system('clear')
     print
-    logo
     print
     42 * "\033[1;96m="
     print
@@ -646,7 +637,6 @@ def clone_dari_daftar_teman():
         pass
     os.system('clear')
     print
-    logo
     mpsh = []
     jml = 0
     print
@@ -718,7 +708,6 @@ def clone_dari_teman():
         pass
     os.system('clear')
     print
-    logo
     mpsh = []
     jml = 0
     print
@@ -801,7 +790,6 @@ def clone_dari_member_group():
         pass
     os.system('clear')
     print
-    logo
     mpsh = []
     jml = 0
     print
@@ -885,7 +873,6 @@ def clone_dari_file():
         pass
     os.system('clear')
     print
-    logo
     print
     42 * "\033[1;96m="
     files = raw_input("\033[1;96m[+] \033[1;93mNama File \033[1;91m: \033[1;97m")
