@@ -215,9 +215,9 @@ def pilih():
     unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
     if unikers == "":
         print
-        "\033[1;96m[!] \x1b[1;91mIsi yang benar"
+        "\033[1;96m[!] \x1b[1;91myakek lamana halbzhera"
         pilih()
-    elif unikers == "1"
+    elif unikers == "1":
         super()
     elif unikers == "2":
         grupsaya()
